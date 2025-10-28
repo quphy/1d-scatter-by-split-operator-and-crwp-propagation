@@ -43,4 +43,5 @@ contains
         R0 = 0.0_d8      
         V  = V0 * 4.0_d8*exp(-(x-R0)/2/a0)/(1.0_d8+exp(-(x-R0)/a0))**2
     end subroutine 
+    
  end program
